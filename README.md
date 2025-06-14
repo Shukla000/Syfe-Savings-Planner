@@ -55,8 +55,9 @@ npm start
 App runs at `http://localhost:3000`
 
 
-🌐 Live Demo
-[🔗 View Demo on Vercel](https://your-vercel-link.vercel.app)
+## 🌐 Live Demo
+[🔗 View Demo on Vercel](https://syfe-savings-planner-1gzflcs2a-lakshmishree-shuklas-projects.vercel.app)
+
 
 
 📸 Screenshot

@@ -1,70 +1,121 @@
-# Getting Started with Create React App
+# 💰 Syfe Goal-Based Savings Planner
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A lightweight, responsive savings planner built in **React + JavaScript + CSS**, designed as a take-home assignment for the Syfe Frontend Intern role.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- ✅ Add multiple savings goals (e.g., "Emergency Fund - ₹50,000")
+- ✅ View converted goal targets in INR/USD using live exchange rate
+- ✅ Add contributions to goals and track progress
+- ✅ Dashboard shows total savings, total target, and overall completion
+- ✅ Fully responsive and mobile-friendly layout
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠 Tech Stack
 
-### `npm test`
+- **React** (CRA setup)
+- **JavaScript (ES6+)**
+- **CSS (Custom – no UI libraries used)**
+- [ExchangeRate API](https://app.exchangerate-api.com/) for currency conversion
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📦 Installation & Local Setup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the Repo**
+```bash
+git clone https://github.com/Shukla000/Syfe-Savings-Planner.git
+cd Syfe-Savings-Planner
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Install Dependencies**
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Add Your API Key**
+- Sign up at [ExchangeRate-API](https://app.exchangerate-api.com)
+- In `App.js`, replace:
+```js
+https://v6.exchangerate-api.com/v6/YOUR_API_KEY/latest/INR
+```
+with:
+```js
+https://v6.exchangerate-api.com/v6/your_real_key/latest/INR
+```
 
-### `npm run eject`
+4. **Run the App**
+```bash
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+App runs at `http://localhost:3000`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🌐 Live Demo
+[🔗 View Demo on Vercel](https://your-vercel-link.vercel.app)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 📸 Screenshot
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Syfe Goal Planner UI](./screenshot.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 📁 Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+src/
+├── App.js         # Main application component
+├── App.css        # Styling (responsive and custom themed)
+└── index.js       # ReactDOM entry point
+```
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📋 Assignment Deliverables ✅
 
-### Making a Progressive Web App
+| Deliverable                          | Status |
+|-------------------------------------|--------|
+| 1. GitHub repo (public)             | ✅     |
+| 2. README with setup & decisions    | ✅     |
+| 3. Live demo or video in README     | ✅     |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 📋 Assignment Requirements ✅
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+| Requirement                     | Status |
+|-------------------------------|--------|
+| Add goals + target input       | ✅     |
+| Currency conversion (INR/USD) | ✅     |
+| Add contribution & progress   | ✅     |
+| Display total saved & target  | ✅     |
+| Live exchange rate refresh    | ✅     |
+| Form validation & UX polish   | ✅     |
+| Responsive layout              | ✅     |
+| Clean code + multiple commits | ✅     |
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🧠 Design Notes
 
-### `npm run build` fails to minify
+- Simple and clean layout built using vanilla CSS
+- No component libraries (per instructions)
+- Mobile-friendly with responsive cards and flexible layout
+- Future enhancements could include localStorage, dark mode, or real modals
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 📧 Contact
+
+Developed by [Your Name] for the Syfe Frontend Intern Assignment.
+
+---
+
+© 2025 – Frontend Assignment for Syfe

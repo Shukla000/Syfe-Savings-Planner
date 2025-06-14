@@ -1,10 +1,10 @@
-# 💰 Syfe Goal-Based Savings Planner
+## 💰 Syfe Goal-Based Savings Planner
 
 A lightweight, responsive savings planner built in **React + JavaScript + CSS**, designed as a take-home assignment for the Syfe Frontend Intern role.
 
 
 
-🚀 Features
+## 🚀 Features
 
 - ✅ Add multiple savings goals (e.g., "Emergency Fund - ₹50,000")
 - ✅ View converted goal targets in INR/USD using live exchange rate
@@ -14,7 +14,7 @@ A lightweight, responsive savings planner built in **React + JavaScript + CSS**,
 
 
 
- 🛠 Tech Stack
+ ## 🛠 Tech Stack
 
 - **React** (CRA setup)
 - **JavaScript (ES6+)**
@@ -23,7 +23,7 @@ A lightweight, responsive savings planner built in **React + JavaScript + CSS**,
 
 
 
-📦 Installation & Local Setup
+## 📦 Installation & Local Setup
 
 1. **Clone the Repo**
 ```bash
@@ -60,7 +60,7 @@ App runs at `http://localhost:3000`
 
 
 
-📸 Screenshot
+## 📸 Screenshot
 
 ![Syfe Goal Planner UI](./image.png)
 

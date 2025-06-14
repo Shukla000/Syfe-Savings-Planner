@@ -62,7 +62,7 @@ App runs at `http://localhost:3000`
 
 📸 Screenshot
 
-![Syfe Goal Planner UI](./screenshot.png)
+![Syfe Goal Planner UI](./image.png)
 
 
 

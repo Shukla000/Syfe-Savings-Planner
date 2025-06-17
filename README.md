@@ -56,7 +56,7 @@ App runs at `http://localhost:3000`
 
 
 ## 🌐 Live Demo
-[🔗 View Demo on Vercel](https://syfe-savings-planner-1gzflcs2a-lakshmishree-shuklas-projects.vercel.app)
+[🔗 View Demo on Vercel](https://syfe-savings-planner.vercel.app/)
 
 
 
